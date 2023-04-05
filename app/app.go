@@ -34,3 +34,7 @@ func (u *uploader) Upload(ctx context.Context, filepath string) (string, error) 
 	}
 	return cid, nil
 }
+
+func (u *uploader) Store(ctx contetx.Context, cid string) error {
+
+}
